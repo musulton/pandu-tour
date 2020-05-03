@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".DetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/Gambar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"/>
+        </FrameLayout>
+        <TextView
+            style="@style/TextContent.Black"
+            android:textSize="30sp"
+            android:id="@+id/Nama"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:textStyle="bold"/>
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:text="Informasi Destinasi "
+            android:layout_marginBottom="8dp"
+            android:textStyle="bold"/>
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:text="Profil"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+        <TextView
+            style="@style/TextContent"
+            android:id="@+id/Profil"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black"/>
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:text="Alamat"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/TextSpec.Value"
+                    android:id="@+id/Alamat" />
+            </TableRow>
+        </TableLayout>
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:text="Telepon"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/TextSpec.Value"
+                    android:id="@+id/Telp" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="25dp"/>
+    </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/detailButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            app:layout_anchorGravity="bottom|end"
+            android:src="@drawable/ic_info_outline_black_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/dialButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            app:layout_anchorGravity="bottom|end"
+            android:src="@drawable/ic_call_black_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/navButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_margin"
+            app:layout_anchorGravity="bottom|end"
+            android:src="@drawable/ic_map_black_24dp" />
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

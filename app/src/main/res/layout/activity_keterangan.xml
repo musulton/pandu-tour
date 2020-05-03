@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".KeteranganActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/color4"
+            style="@style/TextContent.Black"
+            android:textSize="30sp"
+            android:text="Rincian"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+        <WebView
+            style="@style/TextContent.Black"
+            android:id="@+id/Konten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></WebView>
+
+    </LinearLayout>
+    </ScrollView>
