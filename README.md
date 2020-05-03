@@ -16,6 +16,5 @@ Aplikasi ini dapat berfungsi layaknya pemandu wisata dimana informasi-informasi 
 Untuk memasukan data wisata kedalam database sehingga wisatawan akan mempunyai daftar wisata, dibutuhkan aplikasi PanduTour versi website
 sebagai administrator yang bertugas mengatur informasi didalam aplikasi, anda bisa buka <a href="https://github.com/musulton/pandu-tour-website">disini</a>. 
 
-## Catatan
-Dibuat ketika sedang baru memulai pemrograman android, sehingga plikasi sangat sederhana dan kode yang ditulis jauh dari efisien
-karena banyak kode yang redundansi dan tidak mendekati konsep OOP.
+## Pengembangan
+Dibuat ketika saya baru memulai pemrograman android, sehingga aplikasi sangat sederhana dan kode yang ditulis jauh dari kata efisien, dikarenakan banyak kode redundansi dan tidak mendekati konsep OOP. Untuk itu akan sangat memudahkan bagi anda untuk mengembangkan aplikasi ini, silahkan fork atau download.
