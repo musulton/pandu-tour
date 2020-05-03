@@ -17,4 +17,4 @@ Untuk memasukan data wisata kedalam database sehingga wisatawan akan mempunyai d
 sebagai administrator yang bertugas mengatur informasi didalam aplikasi, anda bisa buka <a href="https://github.com/musulton/pandu-tour-website">disini</a>. 
 
 ## Pengembangan
-Dibuat ketika saya baru memulai pemrograman android, sehingga aplikasi sangat sederhana dan kode yang ditulis jauh dari kata efisien, dikarenakan banyak kode redundansi dan tidak mendekati konsep OOP. Untuk itu akan sangat memudahkan bagi anda untuk mengembangkan aplikasi ini, silahkan fork atau download.
+Dibuat ketika saya baru memulai pemrograman android, sehingga aplikasi sangat sederhana dan kode yang ditulis jauh dari kata efisien, dikarenakan banyak kode redundansi dan tidak mendekati konsep OOP. Untuk itu akan merepotkan bagi anda apabila ingin mengembangkan aplikasi ini, silahkan fork atau download apabila anda ingin memperbaiki dan mengembangkan aplikasi ini.
